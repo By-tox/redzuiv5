@@ -1,10 +1,10 @@
 local Configs_HUB = {
-	Cor_Hub = Color3.fromRGB(20, 0, 0),
-	Cor_Options = Color3.fromRGB(150, 0, 0),
-	Cor_Stroke = Color3.fromRGB(120, 0, 0),
-	Cor_Text = Color3.fromRGB(255, 50, 50),
-	Cor_DarkText = Color3.fromRGB(150, 0, 0),
-	Corner_Radius = UDim.new(0, 6),
+	Cor_Hub = Color3.fromRGB(25, 5, 5),
+	Cor_Options = Color3.fromRGB(100, 0, 0),
+	Cor_Stroke = Color3.fromRGB(60, 10, 10),
+	Cor_Text = Color3.fromRGB(255, 40, 40),
+	Cor_DarkText = Color3.fromRGB(120, 20, 20),
+	Corner_Radius = UDim.new(0, 8),
 	Text_Font = Enum.Font.GothamBold
 }
 
