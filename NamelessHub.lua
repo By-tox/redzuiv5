@@ -2042,7 +2042,7 @@ local function createTabContent(name)
 
         discordButton.MouseButton1Click:Connect(function()
             pcall(function()
-                setclipboard("https://discord.gg/aXYUkzDR")
+                setclipboard("https://discord.gg/azc")
                 StarterGui:SetCore("SendNotification", {
                     Title = "Discord",
                     Text = "Link copied to clipboard!",
@@ -2120,7 +2120,7 @@ local function openGUI()
     hubTextTween:Play()
 
     textTween.Completed:Connect(function()
-        nhLabel.Text = "Nameless"
+        nhLabel.Text = "Azc Hub | bytox"
         local nameTween = TweenService:Create(nhLabel, TweenInfo.new(0.3), {
             TextTransparency = 0
         })
@@ -2190,7 +2190,7 @@ local function closeGUI()
     textTween:Play()
     hubTextTween:Play()
     textTween.Completed:Connect(function()
-        nhLabel.Text = "NH"
+        nhLabel.Text = "ZC"
         local nameTween = TweenService:Create(nhLabel, TweenInfo.new(0.3), {
             TextTransparency = 0
         })
@@ -2341,4 +2341,5 @@ if settings.flingEnabled then
 end
 
 openGUI()
+
 switchTab("Main")
